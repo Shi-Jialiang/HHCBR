@@ -25,7 +25,7 @@ HHCBR is a meal recommendation model based on graph neural network and contrasti
 7. The best model and associate config file for each experimental setting is saved in ./checkpoints.
 
 ## How to run the code
-1. Train CrossCBR on the dataset Youshu with GPU 0: 
+1. Train CrossCBR on the dataset MealRec+L with GPU 0: 
 
    > python train.py -g 0 -m HHCBR -d MealRec+L
 
