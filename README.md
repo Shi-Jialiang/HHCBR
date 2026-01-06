@@ -25,11 +25,9 @@ HHCBR is a meal recommendation model based on graph neural network and contrasti
 7. The best model and associate config file for each experimental setting is saved in ./checkpoints.
 
 ## How to run the code
-1. Train CrossCBR on the dataset MealRec+L with GPU 0: 
+1. Train HHCBR on the dataset MealRec+L with GPU 0: 
 
    > python train.py -g 0 -m HHCBR -d MealRec+L
-
-   You can specify the gpu id and the used dataset by cmd line arguments, while you can tune the hyper-parameters by revising the configy file [config.yaml](https://github.com/mysbupt/CrossCBR/blob/master/config.yaml).
 
 ## Acknowledgement
 This code is implemented based on the open source code from the paper **CrossCBR : Cross-view Contrastive Learning for Bundle Recommendation** (KDD '22).
