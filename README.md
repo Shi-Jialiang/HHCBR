@@ -1,7 +1,7 @@
 # HHCBR: A Hypergraph-Enhanced Framework for Balancing Healthiness and Preference in Meal Recommendation
 This is our Pytorch implementation for the paper:
 
->Jialiang Shi, Takahiro Komamizu, and Ichiro IDE. HHCBR: A Hypergraph-Enhanced Framework for Balancing Healthiness and Preference in Meal Recommendation, [Paper in arXiv](). 
+>Jialiang Shi, Takahiro Komamizu, and Ichiro IDE. HHCBR: A Hypergraph-Enhanced Framework for Balancing Healthiness and Preference in Meal Recommendation. 
 
 Author: Jialiang Shi (shij@cs.is.i.nagoya-u.ac.jp)
 
