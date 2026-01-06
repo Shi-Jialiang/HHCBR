@@ -16,13 +16,10 @@ HHCBR is a meal recommendation model based on graph neural network and contrasti
 
 
 ## Code Structure
-1. The entry script for training and evaluation is: [train.py](https://github.com/mysbupt/CrossCBR/blob/master/train.py).
-2. The config file is: [config.yaml](https://github.com/mysbupt/CrossCBR/blob/master/config.yaml).
-3. The script for data preprocess and dataloader: [utility.py](https://github.com/mysbupt/CrossCBR/blob/master/utility.py).
-4. The model folder: [./models](https://github.com/mysbupt/CrossCBR/tree/master/models).
-5. The experimental logs in tensorboard-format are saved in ./runs.
-6. The experimental logs in txt-format are saved in ./log.
-7. The best model and associate config file for each experimental setting is saved in ./checkpoints.
+1. The entry script for training and evaluation is: [train.py](https://github.com/Shi-Jialiang/HHCBR/blob/d5a46e95e90e84193bc3ce2ed9d667b3f0538cc5/train.py).
+2. The config file is: [config.yaml](https://github.com/Shi-Jialiang/HHCBR/blob/d5a46e95e90e84193bc3ce2ed9d667b3f0538cc5/config.yaml).
+3. The script for data preprocess and dataloader: [utility.py](https://github.com/Shi-Jialiang/HHCBR/blob/d5a46e95e90e84193bc3ce2ed9d667b3f0538cc5/utility.py).
+4. The model folder: [./models](https://github.com/Shi-Jialiang/HHCBR/tree/main/models).
 
 ## How to run the code
 1. Train HHCBR on the dataset MealRec+L with GPU 0: 
