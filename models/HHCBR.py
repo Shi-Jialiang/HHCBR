@@ -328,7 +328,7 @@ class HHCBR(nn.Module):
 
         for i in range(self.num_layers):
             features = torch.spmm(graph, features)
-            if self.conf["aug_type"] == "MD" and not test: 
+            if self.conf["aug_type"] == "ED" and not test: 
                 features = mess_dropout(features)
 
             features = features / (i+2)
@@ -347,7 +347,7 @@ class HHCBR(nn.Module):
         else:
             IL_bundles_feature = torch.matmul(self.bundle_agg_graph, IL_items_feature)
 
-        if self.conf["bundle_agg_ratio"] != 0 and self.conf["aug_type"] == "MD" and not test:
+        if self.conf["bundle_agg_ratio"] != 0 and self.conf["aug_type"] == "ED" and not test:
             IL_bundles_feature = self.bundle_agg_dropout(IL_bundles_feature)
 
         return IL_bundles_feature
@@ -517,3 +517,4 @@ class HHCBR(nn.Module):
         )
 
         return scores 
+
